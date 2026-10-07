@@ -1,0 +1,171 @@
+body {
+    background-color: #F5F1E6;
+    margin: 0;
+    /* padding: 30px; */
+    font-family: 'Gugeshashvili', sans-serif;
+}
+
+@font-face {
+    font-family: 'Gugeshashvili';
+    src: url('FONTS/gugeshashvili_5_mthavruli.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.fullcontent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    /* margin-right: 50px; */
+
+}
+
+.registration-headline {
+    margin-bottom: 35px;
+}
+
+.registration-headline span {
+    display: flex;
+    justify-content: center;
+}
+
+.smallheadline {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.mainheadline {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.registration-form {
+    background-color: #243B2A;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px 45px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 0px 0px 354px 45px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 0px 354px 45px rgba(0,0,0,0.43);
+}
+
+.registration-input {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.namelastnamerow {
+    display: flex;
+    gap: 12px;
+}
+
+.registration-input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.registration-form input:focus {
+    outline: none;
+}
+
+.registration-form input:hover {
+    background-color: #d1d1d1;
+}
+
+.registration-btn {
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 15px !important;
+}
+
+.doyouhaveaccalready {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.doyouhaveaccalready:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 700px;
+    height: auto;
+}
+
+.loginheadline {
+    width: 300px;
+    text-align: center;
+}
+
+.aboutwebsite {
+    width: 600px;
+}
+/* 
+.aboutwebsite-paragraphs {
+    border: 2px dashed #243B2A;
+    padding: 5px;
+} */
+
+.website-title {
+    font-size: 64px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #243B2A;
+}
+
+.headline-aboutwebsite {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.blackparagraph {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.warningparagraph {
+    font-size: 18px;
+    border: 5px solid rgb(164, 2, 2);
+    padding: 10px;
+}
+
+.warning {
+    color: rgb(164, 2, 2);
+    font-weight: bold;
+}
+
+.startingpagelinks a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.startingpagelinks a:hover {
+    text-decoration: underline;
+}
+
+input {
+    box-shadow:  inset 0 0 2px #243B2A;
+}
